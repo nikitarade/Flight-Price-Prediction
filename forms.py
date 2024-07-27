@@ -11,8 +11,8 @@ from wtforms.validators import DataRequired
 
 
 # getting the data
-train = pd.read_csv(r"C:\Users\Nikita Rade\Desktop\ML_flight-price\data\train.csv")
-val = pd.read_csv(r"C:\Users\Nikita Rade\Desktop\ML_flight-price\data\val.csv")
+train = pd.read_csv("data/train.csv")
+val = pd.read_csv("data/val.csv")
 X_data = pd.concat([train, val], axis=0).drop(columns="price")
 
 class InputForm(FlaskForm):
