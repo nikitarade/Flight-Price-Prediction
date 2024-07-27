@@ -1,0 +1,85 @@
+.prediction-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.prediction-info h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.prediction-info p {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #6200ea;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3700b3;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+form .div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error {
+    color: #ff4d4d;
+}
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #63a4ff;
+}
